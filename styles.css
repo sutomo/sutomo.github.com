@@ -1,0 +1,197 @@
+body {
+        font-family: 'Gentium Basic', serif;
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0.2px;
+
+    }
+
+    aside{
+      clear: both;
+      padding-top: 25px;
+      font-size: 0.8rem;
+      color: #ccc
+      }
+
+
+    .information{
+      margin: 10% 0 0 20%;
+      font-size: 0.9rem;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out; 
+      z-index: 99999;
+      }
+
+
+    .information:hover{}
+    .information:hover dd a{
+      color: #DF9C5A;
+      }
+    a {
+      text-decoration: none;
+      }
+    a:hover{
+      text-decoration: none;
+      }
+
+
+    ul.elsewhere a{
+      float: left;
+      font-family: sans-serif !important;
+      font-size: 1.1rem;
+      text-decoration: none !important;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out; 
+      text-shadow: 0 1px px #fff;
+      }
+
+
+    ul.elsewhere a:hover{
+      color: #666; 
+      }
+
+
+    ul.elsewhere a:active{
+      color: #000; 
+      }
+    a span{
+      display: none;
+      }
+      
+    ul{
+      padding: 0 0 0 1.3em;
+      margin: 0;
+      } 
+
+    li{
+      list-style:decimal;
+      padding-bottom: 0.3rem;
+      }
+
+    .elsewhere{
+      margin: 0;
+      padding: 10px 0;
+
+      }
+
+    .elsewhere ul{
+      margin: 0;
+      padding: 0;
+      }
+
+    .elsewhere li{
+      list-style: none;
+      margin-right: 10px;
+      float: left;
+      }
+
+    .information:hover dd,
+    .information:hover a{
+      margin: 0 0 .3em;
+      color: #444;
+      }
+
+    .information:hover dt strong{
+      color: #666;
+      }
+
+    dd, a{
+      margin: 0 0 .3em;
+      color: #aaa;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out; 
+      }
+
+    dt{
+      margin: 2em 0 .3em;
+      }
+
+    dt strong{ 
+      font-family: 'Karla', sans-serif;
+      font-weight: normal;
+      text-transform: uppercase;
+      font-size: 9px;
+      letter-spacing: .2em;
+      color: #ccc;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;   
+      }
+
+@font-face {
+  font-family: "as-socialcons";
+  src:url("fonts/as-socialcons.eot");
+  src:url("fonts/as-socialcons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/as-socialcons.woff") format("woff"),
+    url("fonts/as-socialcons.ttf") format("truetype"),
+    url("fonts/as-socialcons.svg#as-socialcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "as-socialcons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "as-socialcons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-behance:before {
+  content: "a";
+}
+.icon-ello:before {
+  content: "b";
+}
+.icon-email:before {
+  content: "c";
+}
+.icon-envato:before {
+  content: "d";
+}
+.icon-google-plus:before {
+  content: "e";
+}
+.icon-instagram:before {
+  content: "f";
+}
+.icon-medium:before {
+  content: "h";
+}
+.icon-pinterest:before {
+  content: "i";
+}
+.icon-twitter:before {
+  content: "j";
+}
+.icon-vsco:before {
+  content: "k";
+}
+.icon-linkedin:before {
+  content: "g";
+}
